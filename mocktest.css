@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:white;
+}
+
+
+.container{
+    width:360px;
+    height:740px;
+    text-align:center;
+    background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    padding-top:40px;
+    padding-left:20px;
+    padding-right:20px;
+    color:#25306e;
+    font-size:22px;
+    font-weight:700;
+    line-height:1.4;
+}
+
+
+.girl{
+    width:220px;
+    margin:40px auto;
+}
+
+
+p{
+    font-size:14px;
+    color:#444;
+    margin:0 30px 30px;
+    line-height:1.6;
+}
+
+
+button{
+    background:#25306e;
+    color:white;
+    border:none;
+    padding:12px 28px;
+    border-radius:6px;
+    cursor:pointer;
+}
